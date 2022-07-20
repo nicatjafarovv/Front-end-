@@ -1,0 +1,211 @@
+body{
+    background-image:url(download.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+.download-btn{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 99999;
+  }
+  .download-btn a{
+    background: none;
+    padding: 13px 22px;
+    font-size: 16px;
+    color: crimson;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .download-btn a:hover{
+      color: #ffffff;
+      background: crimson;
+  }
+  @media screen and (max-width: 600px){
+      .download-btn{
+          left: 20px;
+      }
+      .download-btn a{
+          font-size: 13px;
+          padding: 9px 15px;
+      }
+  }
+</style>
+
+
+
+.container div:nth-child(1){
+background-color: grey;
+position:absolute;
+top:50px;
+left: 50px;
+
+
+}
+
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+
+
+.container{
+  width:100%;
+  min-height: ;100vh;
+  padding:5%;
+  background-image:
+  background-position:center;
+  background-size:cover;
+
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+}
+
+
+.container{
+  background-image:url();
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+
+.download-btn{
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 99999;
+}
+.download-btn a{
+  background: none;
+  padding: 13px 22px;
+  font-size: 16px;
+  color: crimson;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.download-btn a:hover{
+    color: #ffffff;
+    background: crimson;
+}
+@media screen and (max-width: 600px){
+    .download-btn{
+        left: 20px;
+    }
+    .download-btn a{
+        font-size: 13px;
+        padding: 9px 15px;
+    }
+}
+</style>
+<link rel ="stylesheet" href="styles.css">
+
+.box{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,50%);
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.download-btn{
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 99999;
+}
+.download-btn a{
+  background: none;
+  padding: 13px 22px;
+  font-size: 16px;
+  color: crimson;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.download-btn a:hover{
+    color: #ffffff;
+    background: crimson;
+}
+@media screen and (max-width: 600px){
+    .download-btn{
+        left: 20px;
+    }
+    .download-btn a{
+        font-size: 13px;
+        padding: 9px 15px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+
+form{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:30px;
+}
+
+
+
+.bg-image {
+  background:url();
+}
+
+
+
+body{
+  background-image: url(download.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+
+.menu-bar ul{
+  display:inline-flex;
+  list-style:none;
+  color:#fff;
+  }
+
+  .menu-bar{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+  }
